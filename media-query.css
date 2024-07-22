@@ -1,0 +1,177 @@
+@media(min-width: 375px) {
+    .nav {
+        gap: 20px;
+    }
+
+    .nav a {
+        font-size: 10px;
+    }
+}
+
+@media(min-width: 425px) {
+    .nav {
+        gap: 23px;
+    }
+
+    .nav a {
+        font-size: 12px;
+    }
+}
+
+/* ============= Tablet screen ================== */
+@media(min-width: 768px) {
+    .logo {
+        display: unset;
+    }
+
+    header {
+        justify-content: space-between;
+        font-size: unset;
+    }
+
+    .nav {
+        gap: 16px;
+    }
+
+    .nav a {
+        font-size: 16px;
+    }
+
+    .side-hero {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .side-hero-content {
+        text-align: center;
+        flex: 1;
+        padding: 3rem 1rem 2rem 1rem;
+    }
+
+    .side-hero-content h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 2.0rem;
+    }
+
+    .side-hero-content h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .side-hero-content p {
+        font-size: 22px;
+        margin-top: 16px;
+        text-align: justify;
+    }
+
+    .side-hero-image {
+        flex: 1;
+    }
+
+    .group-talk {
+        align-self: flex-start;
+        justify-self: flex-start;
+    }
+
+    .group-talk a {
+        padding: 10px 20px;
+    }
+
+    .about {
+        padding: 10px 20px;
+        width: 90%;
+    }
+
+    .about p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .project-container {
+        display: flex;
+    }
+
+    .project-container img {
+        height: 350px;
+    }
+
+    .project1,
+    .project2 {
+        flex: 1;
+    }
+
+    .contact form {
+        width: 400px;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons {
+        display: flex;
+        gap: 48px;
+    }
+}
+
+/* ================== Laptop screen ================= */
+@media(min-width: 1024px) {
+    .nav {
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .nav a {
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .side-hero {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .side-hero-content {
+        text-align: center;
+        flex: 1;
+        padding: 4rem 1rem 2rem 1rem;
+    }
+
+    .side-hero-content h2 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 2.0rem;
+    }
+
+    .side-hero-content h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .side-hero-content p {
+        font-size: 23px;
+        margin-top: 30px;
+        text-align: justify;
+        line-height: 40px;
+    }
+
+    .about {
+        padding: 10px 30px;
+        width: 80%;
+    }
+
+    .about p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .skills ul li {
+        font-size: 25px;
+    }
+
+    .contact form {
+        width: 500px;
+    }
+}
